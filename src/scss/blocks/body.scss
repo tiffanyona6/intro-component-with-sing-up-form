@@ -1,7 +1,24 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  background-color: #111;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.form__field {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: white;
+  padding: 24px;
+}
+
+
+.form__field::after {
+  content: '';
+  position: absolute;
+  left: 50px;
 }

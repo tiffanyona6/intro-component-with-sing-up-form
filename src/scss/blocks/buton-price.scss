@@ -1,0 +1,23 @@
+.buton-price {
+    background-color: #5E54A4;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 10px;
+    margin-bottom: 24px;
+
+    &__text {
+        font-weight: 700;
+        padding: 18px 66px 18px 69px;
+    }
+
+    &__price {
+        font-weight: 400;
+        padding: 18px 66px 18px 69px;
+
+    }
+
+    &__price::after {
+        content: attr(data-currency);
+    }
+}
