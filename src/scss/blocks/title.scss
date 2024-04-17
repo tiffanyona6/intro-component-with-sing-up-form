@@ -1,0 +1,16 @@
+@use "../mixins/responsive.scss" as *;
+.title {
+  &--infobig {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: white;
+    text-align: center;
+    line-height: 3.4375rem;
+    letter-spacing: -0.52px;
+  }
+
+  @include responsive(laptop) {
+    text-align: left;
+  }
+}

@@ -1,0 +1,38 @@
+@use "../mixins/responsive.scss" as *;
+
+.text {
+  font-size: 0.9375rem;
+  color: white;
+  text-align: center;
+  margin: 0;
+
+  &--info {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 64px;
+    color: white;
+    text-align: center;
+    line-height: 1.625rem;
+
+    @include responsive(laptop) {
+      text-align: left;
+      margin: 0;
+    }
+  }
+
+  &--bold {
+    font-weight: 600;
+  }
+
+  &--medium {
+    font-weight: 600;
+    font-size: 0.6875rem;
+    color: #bab7d4;
+  }
+
+  &--pink {
+    font-weight: 600;
+    font-size: 0.6875rem;
+    color: #ff7979;
+  }
+}

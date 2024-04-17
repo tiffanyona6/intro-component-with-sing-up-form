@@ -1,18 +1,10 @@
+@use "../mixins/responsive.scss" as *;
 .info {
-
-    color: white;
-
-    &__title {
-        padding: 88px 0 0 0;
-        font-weight: 700;
-        font-size: 28px;
-        margin-bottom: 16px;
-
-    }
-
-    &__text {
-        font-weight: 500;
-        font-size: 16px;
-        margin-bottom: 64px;
-    }
+  @include responsive(laptop) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 525px;
+    text-align: left;
+  }
 }

@@ -1,5 +1,16 @@
-.field {
-    font-size: 14px;
-    font-weight: 600;
-    background-color: white;
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 0.5rem;
+  text-align: center;
+
+  & > * {
+    height: 3.5rem;
+    border: 1px solid #dedede;
+  }
 }

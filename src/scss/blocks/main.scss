@@ -1,5 +1,12 @@
+@use "../mixins/responsive.scss" as *;
 .main {
-    background-image: url(../../assets/images/bg-intro-mobile.png);
-    background-color: #FF7979;
-    padding: 0 24px 0 24px;
+
+  padding: 88px 24px 68px 24px;
+
+  @include responsive(laptop) {
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    margin-inline: auto;
+  }
 }
