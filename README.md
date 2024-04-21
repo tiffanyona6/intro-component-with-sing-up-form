@@ -1,4 +1,4 @@
-# Título del proyecto
+# Intro Component With Sing up Form
 
 ![Imagen del proyecto](https://raw.githubusercontent.com/tiffanyona6/intro-component-with-sing-up-form/main/Imagen%20Readme/desktop-preview.jpg)
 
@@ -13,7 +13,7 @@ Se trata de una página formato mobile y desktop con un formulario.
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-He aprendido a crear un formulario por primera vez, usando la etiqueta playholder.
+He aprendido a crear un formulario por primera vez, usando la etiqueta form y playholder.
 
 ## Tecnologías 🛠
 
@@ -28,15 +28,14 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ![Captura del proyecto](https://raw.githubusercontent.com/tiffanyona6/intro-component-with-sing-up-form/main/Imagen%20Readme/desktop-design.jpg)
 ![Captura del proyecto](https://raw.githubusercontent.com/tiffanyona6/intro-component-with-sing-up-form/main/Imagen%20Readme/mobile-design.jpg)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+
 
 ## Autor ✒️
 
 **Tiffany Oña Bouchakour**
 
 - tiffanyona6@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
-- [Porfolio web](https://tu-dominio.com/)
+- [LinkedIn](https://www.linkedin.com/in/tiffany-o%C3%B1a-/)
 
 ## Instalación
 
